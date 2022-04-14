@@ -1,0 +1,53 @@
+1649943533502	geckodriver	INFO	Listening on 127.0.0.1:13548
+1649943534028	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13549" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Tmp\\rust_mozprofilePYMOpo"
+1649943534708	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at D:\\Tmp\\rust_mozprofilePYMOpo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:13549/devtools/browser/4154ece0-bc23-4825-9af1-95ddbeefaa52
+1649943538973	Marionette	INFO	Listening on port 13588
+Read port: 13588
+1649943539032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1649943541829	Marionette	INFO	Stopped listening on port 13588
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1649943568740	geckodriver	INFO	Listening on 127.0.0.1:13647
+1649943569263	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13648" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Tmp\\rust_mozprofilejhF5wF"
+1649943569661	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at D:\\Tmp\\rust_mozprofilejhF5wF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:13648/devtools/browser/a451d861-2b57-4be4-92d2-14e5b17751d6
+1649943573197	Marionette	INFO	Listening on port 13678
+Read port: 13678
+1649943573319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1649943575442	Marionette	INFO	Stopped listening on port 13678
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  Message: Error: Data is not ready.
+  Stack:
+    get data@resource://gre/modules/JSONFile.jsm:186:13
+getListeners@resource://gre/modules/PushBroadcastService.jsm:66:5
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+[Parent 13736, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 13736, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1649943998965	geckodriver	INFO	Listening on 127.0.0.1:14345
+1649943999486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14346" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Tmp\\rust_mozprofileJCpj73"
+1649943999798	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at D:\\Tmp\\rust_mozprofileJCpj73\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:14346/devtools/browser/9087e56e-fe10-4b65-8914-3c63df2b05a5
+1649944005206	Marionette	INFO	Listening on port 14376
+Read port: 14376
+1649944005269	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1649944007543	Marionette	INFO	Stopped listening on port 14376

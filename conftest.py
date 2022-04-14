@@ -1,6 +1,8 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox import options as fire_op
+from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 
 def pytest_addoption(parser):
     parser.addoption('--browser_name', action='store', default="chrome",
@@ -13,15 +15,19 @@ def pytest_addoption(parser):
 def browser(request):
     browser_name = request.config.getoption("browser_name")
     language = request.config.getoption("language")
-    options = Options()
-    options.add_experimental_option('prefs', {'intl.accept_languages': language})
-
     browser = None
+
+
+
     if browser_name == "chrome":
         print("\nstart chrome browser for test..")
+        options = Options()
+        options.add_experimental_option('prefs', {'intl.accept_languages': language})
         browser = webdriver.Chrome(options=options)
     elif browser_name == "firefox":
         print("\nstart firefox browser for test..")
+        options = fire_op.Options()
+        options.set_preference("intl.accept_languages", language)
         browser = webdriver.Firefox(options=options)
     else:
         raise pytest.UsageError("--browser_name should be chrome or firefox")
